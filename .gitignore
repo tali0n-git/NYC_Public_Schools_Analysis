@@ -1,0 +1,11 @@
+# This portion of .gitignore is appropriate for pycache, data, etc...
+# data ignores
+/data/
+/extraneous_data/
+/cleaned_data/
+
+# cached files
+/__pycache__/
+
+# OS-specific files
+.DS_Store
