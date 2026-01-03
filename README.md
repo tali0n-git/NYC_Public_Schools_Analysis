@@ -34,6 +34,12 @@ The core **objective** is to investigate the relationship between school perform
 
 2. Provide meaningful, data-backed recommendations for NYC DOE data collection and an example of a python script that can take in annually updated information for further/future observation.
 
+3. Present findings and final product to members of the City Council, MTA, and DOE; the intent would be to inform and encourage collaboration. If there is a connection between poor MTA On-Time Performance and Public School Quality Reviews, the next step would be exploring potential solutions to improve both MTA and DOE issues. 
+
+## Ideas: 
+- MTA: Express subway routes for high-traffic lines at peak morning and evening commute hours (implemented in worse performing areas)
+- MTA & the Public: Implement a credit system for OMNY accounts linked to Google Maps/Apple Maps/pedometer to encourage people to walk vs take the train; user inputs stations they will walk to, and a cap on the amount of credits that can be collected in a day can be made to limit abuse of the system.
+- DOE & City: Determine viable solutions for subsidizing/offering teachers housing closer to their schools (should school performance be found to be closely linked to teachers' stress/commute times)
 
 -----------------------------------------------------------------------------------------------------
 
