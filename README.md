@@ -21,7 +21,7 @@ The core **objective** is to investigate the relationship between school perform
 
 2. Create EDA notebooks of MTA station locations and On-Time Performance metrics.
 
-3. Clean school and MTA data; notebooks serve as the script for this cleaning to occur. ✅
+3. Clean school ✅ and MTA data; notebooks serve as the script for this cleaning to occur.
 
 4. Display cleaned school location and QR data in Tableau, using an interactive set of bar graphs to show how QR ratings in each borough's grouped locations change over time.
 
