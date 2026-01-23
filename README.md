@@ -19,6 +19,11 @@ The core **objective** is to investigate the relationship between school perform
 ## Data Source for US Zip Codes:
 - https://simplemaps.com/data/us-zips
 
+# NOTE: CHANGING DATA ANALYSIS TO USE CENSUS TRACT, NOT ZIP CODE
+
+![Showing Specificity of Census Tract](../images/census_small_area_geography.jpg)
+
+This visual is meant to be viewed in a clockwise direction, starting from the upper-left corner.
 
 -----------------------------------------------------------------------------------------------------
 
