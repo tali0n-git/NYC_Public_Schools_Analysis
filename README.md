@@ -16,6 +16,9 @@ The core **objective** is to investigate the relationship between school perform
 - https://data.ny.gov/Transportation/MTA-Subway-Terminal-On-Time-Performance-2015-2019/f6rf-2a3t/about_data - MTA Subway On-Time Performance (2015-2019)
 - https://data.ny.gov/Transportation/MTA-Subway-Terminal-On-Time-Performance-2020-2024/vtvh-gimj/about_data - MTA Subway On-Time Performance (2020-2024)
 
+## Data Source for US Zip Codes:
+- https://simplemaps.com/data/us-zips
+
 
 -----------------------------------------------------------------------------------------------------
 
