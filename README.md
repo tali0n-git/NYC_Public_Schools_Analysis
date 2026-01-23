@@ -27,7 +27,7 @@ The core **objective** is to investigate the relationship between school perform
 3. Clean school ✅ and MTA data; notebooks serve as the script for this cleaning to occur.
 
 4. Display cleaned school location and QR data in Tableau, using an interactive set of bar graphs to show how QR ratings in each borough's grouped locations change over time.
-    - public.tableau.com/app/profile/thalyann.olivo/vizzes
+    - https://public.tableau.com/app/profile/thalyann.olivo/vizzes
 
 5. Incorporate MTA data into the previously created Tableau visualizations, for showing the impact (or lack thereof) of MTA subway performance on NYC Public School QR performance.
 
