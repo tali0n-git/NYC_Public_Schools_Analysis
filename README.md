@@ -21,7 +21,7 @@ The core **objective** is to investigate the relationship between school perform
 
 # NOTE: CHANGING DATA ANALYSIS TO USE CENSUS TRACT, NOT ZIP CODE
 
-!(../images/census_small_area_geography.jpg)
+![Census Small Area Geography](../images/census_small_area_geography.jpg)
 
 This visual is meant to be viewed in a clockwise direction, starting from the upper-left corner.
 
