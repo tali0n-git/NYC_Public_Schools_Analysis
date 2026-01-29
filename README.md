@@ -19,7 +19,6 @@ The core **objective** is to investigate the relationship between school perform
 ## Data Source for US Zip Codes:
 - https://simplemaps.com/data/us-zips
 
-# NOTE: CHANGING DATA ANALYSIS TO USE CENSUS TRACT, NOT ZIP CODE
 
 ![Census Small Area Geography](/images/census_small_area_geography.jpg)
 
@@ -30,16 +29,16 @@ This visual is meant to be viewed in a clockwise direction, starting from the up
 ## Process Steps:
 1. Create Exploratory Data Analysis (EDA) notebooks of school locations and QR ratings: School_Data_Analysis_Notebooks ✅
 
-2. Create EDA notebooks of MTA station locations and On-Time Performance metrics: MTA_Data_Analysis_Notebooks
+2. Create EDA notebooks of MTA station locations and On-Time Performance metrics: MTA_Data_Analysis_Notebooks ✅
 
-3. Clean school ✅ and MTA data; notebooks serve as the script for this cleaning to occur.
+3. Clean school and MTA data; notebooks serve as the script for this cleaning to occur. ✅
 
 4. Display cleaned school location and QR data in Tableau, using an interactive set of bar graphs to show how QR ratings in each borough's grouped locations change over time.
     - https://public.tableau.com/app/profile/thalyann.olivo/vizzes
 
 5. Incorporate MTA data into the previously created Tableau visualizations, for showing the impact (or lack thereof) of MTA subway performance on NYC Public School QR performance.
 
-6. Use ML techniques (starting with K-Means Clustering) to uncover platform locations where Subway Performance impacts schools the most.
+6. Use ML techniques (starting with K-Means Clustering) ✅ to uncover platform locations where Subway Performance impacts schools the most.
 
 -----------------------------------------------------------------------------------------------------
 ## Project Goal:
@@ -67,3 +66,12 @@ You can install all required dependencies using `pip`:
 
 ```bash
 pip install -r requirements.txt
+```
+
+-----------------------------------------------------------------------------------------------------
+# ML Visuals
+## For K-Means Clustering
+
+![Elbow and Silhouette Plots](/images/elbow_silhouette_kmeans.png)
+
+![K-Means Clusters](/images/kmeans_clusters_pca.png)
