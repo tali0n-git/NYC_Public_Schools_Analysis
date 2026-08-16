@@ -69,6 +69,17 @@ pip install -r requirements.txt
 ```
 
 -----------------------------------------------------------------------------------------------------
+## Notes / Known Limitations (as of the K-Means work)
+
+- **MTA on-time performance isn't in the clustering features yet.** The current k-means run clusters schools by *which* subway lines are within 1.2 miles and *when* they were assessed — not by how well those lines actually perform. `MTA_Subway_Grouped_Data` already has the on-time performance numbers attached per line; the next real step is joining that into the feature matrix so the model can actually speak to the MTA-vs-QR question.
+- **Random Forest notebook is a stub**, not working code yet — it references columns (`num_unique_lines`, `Tract_Population_Density`, `School_Performance_Score`, etc.) that don't exist in any cleaned dataset yet. Worth revisiting once the on-time performance features above are built, since a supervised model (QR score as target) is a more direct way to test the research question than unsupervised clustering.
+- **School coordinates are ZIP-code centroids**, not geocoded addresses — every school in the same ZIP has identical lat/lng. Fine for borough/neighborhood-level patterns, not for anything claiming block-level precision.
+- **`No Data` QR ratings are currently encoded as `0`** on the same 0–8 ordinal scale as real ratings. Needs to be filtered out (not averaged in) before it feeds any statistic or model — otherwise it silently drags down average ratings for schools/areas with missing reviews.
+- **QR rating letter codes (`UD`, `UPF`, `DYO`, etc.) aren't from an authoritative DOE crosswalk** — the current mapping is a best-guess (even cross-checked against multiple LLMs, which disagreed). Worth tracking down the official NYC DOE rubric documentation if this analysis is going in front of City Council/DOE.
+- **Untapped data**: `Census_Data_Analysis_Notebooks/` and `ComponentsofChangebyNTA-2010to2020/` (one level up, outside this repo) have 2020 Census demographic and population-change data that isn't used anywhere yet. That's the natural source for socioeconomic controls (poverty, density, demographic shift) — without controlling for something like this, any MTA-vs-QR correlation is vulnerable to confounding and won't hold up to scrutiny from the intended audience.
+- `data/`, `extraneous_data/`, and `cleaned_data/` are all gitignored — they need to be regenerated locally (download raw sources, then re-run the notebooks in dependency order) after a fresh clone.
+
+-----------------------------------------------------------------------------------------------------
 # ML Visuals
 ## For K-Means Clustering
 
